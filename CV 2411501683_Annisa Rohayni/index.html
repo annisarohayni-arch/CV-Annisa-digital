@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CV Digital - Annisa Rohayni</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    background:
+    radial-gradient(circle at bottom right,
+    rgba(30,0,120,.8),
+    transparent 35%),
+
+    linear-gradient(
+    90deg,
+    #00152e,
+    #000814,
+    #02020f);
+
+    color:white;
+}
+
+.container{
+    max-width:1000px;
+    padding:20px;
+}
+
+h1{
+    font-size:clamp(3rem,8vw,6rem);
+    font-weight:800;
+    line-height:1.1;
+    margin-bottom:20px;
+}
+
+.subtitle{
+    font-size:clamp(1.2rem,2vw,2rem);
+    color:#2fb7ff;
+    margin-bottom:40px;
+}
+
+.btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#29c5f6;
+    color:#00152e;
+    font-size:1.8rem;
+    font-weight:700;
+    padding:22px 55px;
+    border-radius:18px;
+    transition:0.3s;
+    box-shadow:0 10px 25px rgba(41,197,246,.35);
+}
+
+.btn:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 35px rgba(41,197,246,.5);
+}
+
+@media(max-width:768px){
+
+    h1{
+        font-size:3rem;
+    }
+
+    .subtitle{
+        font-size:1.2rem;
+    }
+
+    .btn{
+        font-size:1.2rem;
+        padding:18px 35px;
+    }
+
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>
+        Halo,<br>
+        Saya Annisa Rohayni
+    </h1>
+
+    <p class="subtitle">
+        Mahasiswa Teknik Informatika • Pengembang Web • Antusias Teknologi
+    </p>
+
+    <a href="cv.html" class="btn">
+        Buka CV Digital
+    </a>
+
+</div>
+
+</body>
+</html>
